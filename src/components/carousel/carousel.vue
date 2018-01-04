@@ -4,7 +4,7 @@
 	:autoplayHoverPause = 'this.autoplayHoverPause'
 	:perPage = 'this.perPage'
 	>
-    <slide v-for="item in this.srcs" style="width: 100%; height: 180px;"><img :src='item' alt="" style="width: 100%; height: 180px;"></slide>
+    <slide v-for="item in this.srcs" style="width: 100%; height: 180px;"><img :src='item' alt="" style="width: 100%; height: 4.5rem;"></slide>
     <!-- <slide class="slide_item">
       Slide 1 Content
     </slide>
